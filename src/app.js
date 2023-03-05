@@ -1,6 +1,6 @@
 const express = require('express');
-const LoginController = require('./controllers/Login');
-// ...
+const loginRouter = require('./routes/Login');
+const userRouter = require('./routes/User');
 
 const app = express();
 
@@ -11,6 +11,7 @@ app.get('/', (_request, response) => {
 
 app.use(express.json());
 
-app.post('/login', LoginController.validateUser);
+app.use('/login', loginRouter);
+app.use('/user', userRouter);
 
 module.exports = app;
