@@ -12,6 +12,7 @@ const validateUser = async (req, res) => {
     if (!user) return res.status(400).json({ message: 'Invalid fields' });
     const payload = {
       email,
+      id: user.dataValues.id,
       admin: false,
     };
     const token = jwt.sign(payload, JWT_SECRET, {
