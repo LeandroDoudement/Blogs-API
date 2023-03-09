@@ -10,4 +10,6 @@ const { validateToken } = require('../middlewares/validateToken');
 
 router.post('/', validateToken, validateFields, validateCategoryIds, PostController.createPost);
 
+router.get('/', validateToken, PostController.getAllPosts);
+
 module.exports = router;
