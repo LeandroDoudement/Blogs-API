@@ -1,13 +1,32 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Blogs API
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Esse repositório contém um projeto prático desenvolvido durante o curso de Desenvolvimento de Software da [Trybe](https://www.betrybe.com/). O objetivo do projeto é desenvolver uma API para gerenciamento de blogs.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+## Descrição Geral
+
+A Blogs API é uma API RESTful para gerenciamento de blogs. A aplicação possui funcionalidades como criação, leitura, atualização e remoção de posts e categorias.
+
+## Funcionalidades
+
+A Blogs API possui as seguintes funcionalidades:
+
+- Criação de usuários
+- Autenticação de usuários
+- Criação de posts
+- Edição de posts
+- Remoção de posts
+- Adição de categorias a posts
+- Remoção de categorias de posts
+
+## Tecnologias utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org)
+- [Express](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [Mongoose](https://mongoosejs.com/)
+- [JWT](https://jwt.io/)
+- [Mocha](https://mochajs.org/) e [Chai](https://www.chaijs.com/) para testes automatizados
+- [Swagger](https://swagger.io/) para documentação da API
+
